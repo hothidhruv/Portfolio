@@ -16,7 +16,7 @@ const links = [
 ];
 
 
-const Nav = ({ containerStyles, linkStyles, underlineStyle }) => {
+const Nav = ({ containerStyles, linkStyles, underlineStyles}) => {
   const path = usePathname();
   return (
     <nav className={`${containerStyles}`}>
@@ -29,11 +29,11 @@ const Nav = ({ containerStyles, linkStyles, underlineStyle }) => {
           >
             {link.path === path && (
               <motion.span
-                initial={{ Y: '-100%' }}
+                initial={{ Y: '-100%'}}
                 animate={{ Y: 0 }}
                 transition={{ type: 'tween' }}
                 layoutId='underline'
-                className={`${underlineStyle}`}
+                className={`${underlineStyles}`}
               />
             )}
             {link.name}
@@ -44,4 +44,4 @@ const Nav = ({ containerStyles, linkStyles, underlineStyle }) => {
   );
 };
 
-export default Nav
+export default Nav;
