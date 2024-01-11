@@ -30,7 +30,7 @@ const Hero = () => {
               officiis totam impedit esse.
             </p>
             {/* button */}
-            <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12">
+            <div className="flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12"> 
               <Link href="/contact">
                 <Button className="gap-x-2">
                   Contact Me
@@ -50,8 +50,10 @@ const Hero = () => {
           </div>
           {/* image */}
            {/* "hidden xl:flex relative" */}
-          <div className ="profile-pic blob drop-shadow-div"> 
-            
+          <div className =" profile-pic blob drop-shadow-div hidden xl:flex relative ">  
+          {/* badge  */}
+            <Badge icon={<RiBriefcase4Fill/>}/>
+
             {/* <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
             <DevImg containerStyles="bg-hero_shape w-[510px] h-[462px] bg-no-repeaat relative bg-bottom" imgSrc="/hero/developer.png"/> */}
           </div>
