@@ -56,7 +56,6 @@ const Hero = () => {
               icon={<RiBriefcase4Fill />}
               // endCountNum={3}
               badgeText="4-month Intern experience"
-             
             />
 
             {/* <div className="bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
