@@ -33,7 +33,7 @@
       --foreground: 60 9.1% 97.8%;
       --card: 240 19% 16%;
       --card-foreground: 300 0% 100%;
-      --popover: 20 14.3% 4.1%;
+      --popover: 20 14.3% 4.1%; 
       --popover-foreground: 60 9.1% 97.8%;
       --primary: 8 99% 67%;
       --primary-foreground: 300 0% 100%;
@@ -67,6 +67,18 @@
   @apply text-6xl xl:text-[72px] xl:leading-[80px] tracking-[-2px] font-bold;
 }
 
+.h2{
+  @apply text-4xl font-bold;    
+}
+
+.h3{ 
+  @apply text-3xl font-bold;
+}
+
+.h4{
+  @apply text-[22px] font-semibold;
+}
+
 /*  */
 .py-6 {
   padding-bottom: 0.6rem;
@@ -80,6 +92,10 @@
 
 .subtitle {
   @apply text-muted-foreground text-lg mb-8 font-light;
+}
+
+.section-title{
+  @apply text-4xl font-bold relative w-max flex items-center justify-between gap-x-3 before:bg-dost_light before:bg-dost_dart before:bg-no-repeat before:bg-center before:w-[24px] before:h-[24px];  
 }
 
 
@@ -134,3 +150,4 @@
 .badge{
   @apply z-10 w-[200px] h-[68px] bg-white dark:backdrop-blur-[44px] shadow-2xl p-4 rounded-[10px] flex items-center gap-x-4;
 }
+
