@@ -75,13 +75,13 @@ const skillData = [
     title: "skills",
     data: [
       {
-        name: "html, csss",
+        name: "React JS & Next JS",
       },
       {
-        name: "Frontend developer, csss",
+        name: "Javascript, jQuery, HTML & CSS",
       },
       {
-        name: "Javascript, csss",
+        name: "Bootstrap, TailwindCss & Styled-Components",
       },
     ],
   },
@@ -94,8 +94,14 @@ const skillData = [
       {
         imgPath: "/about/figma.svg",
       },
+      // {
+      //   imgPath: "/about/notion.svg",
+      // },
       {
-        imgPath: "/about/notion.svg",
+        imgPath: "/about/github.svg",
+      },
+      {
+        imgPath: "/about/git-alt.svg",
       },
     ],
   },
@@ -106,11 +112,11 @@ const About = () => {
     return arr.find((item) => item.title === title);
   };
   return (
-    <section className="xl:h-[860px] pb-12 xl:py-24">
+    <section className="xl:h-[750px] pb-12 xl:py-20">
       <div className="container max-auto">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           About Me
-        </h2>
+        </h2> 
         <div className="flex flex-col xl:flex-row">
           {/* image */}
           {/* <div className="hidden xl:flex flex-1 relative">
@@ -119,7 +125,7 @@ const About = () => {
               imgSrc="/about/developer.png"
             />
           </div> */}
-
+     
           {/* tabs */}
           <div className="flex-1">
             <Tabs defaultValue="personal">
