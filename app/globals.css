@@ -156,3 +156,11 @@
 .swiper-pagination-horizontal .swiper-pagination-bullets .swiper-pagination-bullet {
   @apply bg-primary;
 }
+
+.shadow-lg img {
+  max-width: 100px;
+  min-width: 100px;
+}
+.flex-col button {
+  justify-content: center;
+}
