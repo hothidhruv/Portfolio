@@ -1,7 +1,7 @@
 import { MailIcon, HomeIcon, PhoneCall, Component } from "lucide-react";
 
 // Components
-import Form from "../../components/ui/form";
+import Form from "@/components/form";
 
 const Contact = () => {
   return (
