@@ -62,6 +62,11 @@ const qualifactionData = [
     title: "exprience",
     data: [
       {
+        Company: "Newton School (Bangalore)",
+        role: "MERN-Stack Web Development Trainee.",
+        years: "Jun’2023 - to still (training)",
+      },
+       {
         Company: "Shrum Tech Company (Bangalore)",
         role: "Web Developer",
         years: "Mar’2023 - Jun’2023 (Internship)",
@@ -75,10 +80,10 @@ const skillData = [
     title: "skills",
     data: [
       {
-        name: "React JS & Next JS",
+        name: "React JS, Next JS & (basic)Node JS",
       },
       {
-        name: "Javascript, jQuery, HTML & CSS",
+        name: "Javascript, jQuery, Redux, HTML & CSS",
       },
       {
         name: "Bootstrap, TailwindCss & Styled-Components",

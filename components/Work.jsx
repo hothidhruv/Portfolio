@@ -18,6 +18,24 @@ import ProjectCard from "@/components/ProjectCard";
 
 const projectData = [
   {
+    image: "/work/4.png",
+    category: "Javascript",
+    name: "Quizzora",
+    description:
+   "Responsive website build with the help of HTML, CSS, Bootstrap, JavaScript, jQuery and for database purpose I've used Firebase Database.",
+      link: "https://quizzora-bb4s.vercel.app/",
+      github: "https://github.com/hothidhruv/Quizzora",
+    },
+  {
+    image: "/work/2.png",
+    category: "UI Design ",
+    name: "RedStore",
+    description:
+      "Created E-commerce website using HTML, CSS & Bootstrap for styling, featuring pages for homepage, product listings, product details, cart, and checkout with responsive design.",
+    link: "https://hothidhruv.github.io/RedStore_Website/",
+    github:"https://github.com/hothidhruv/RedStore_Website",
+  },
+  {
     image: "/work/3.png",
     category: "Next js",
     name: "xyzd wwf",
@@ -27,31 +45,13 @@ const projectData = [
     github: "/",
   },
   {
-    image: "/work/4.png",
-    category: "Javascript",
-    name: "xyzd wwf",
-    description:
-      "Work  Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    link: "/",
-    github: "/",
-  },
-  {
-    image: "/work/2.png",
-    category: "react js",
-    name: "xyzd wwf",
-    description:
-      "Work  Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-    link: "/",
-    github: "/",
-  },
-  {
     image: "/work/1.png",
-    category: "react js",
-    name: "xyzd wwf",
+    category: "Javascript",
+    name: "Movie Deck",
     description:
-      "Work  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit eius laboriosam, excepturi rerum commodi ipsam",
-    link: "/",
-    github: "/",
+    "Designed and built a movie website using JavaScript, featuring easy-to-use functions like searching, sorting, and filtering for a smooth browsing experience.",
+    link: "https://hothidhruv.github.io/Movie-Deck-JS-Project---JS-Project-Building-Session-JS-Project-Building-Session---qoeaeg4lbz8r/",
+    github: "https://github.com/hothidhruv/Movie-Deck-JS-Project---JS-Project-Building-Session-JS-Project-Building-Session---qoeaeg4lbz8r",
   },
 ];
 
@@ -60,7 +60,7 @@ const Work = () => {
     <section className="relative mb-12 xl:mb-48">
       <div className=" container max-auto">
         {/* text  */}
-        <div className="max-w-[100%] max-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start">
+        <div className="max-w-[100%] max-auto xl:mx-0 text-center xl:text-left mb-12 xl:h-[400px] flex flex-col justify-center items-center xl:items-start width-manage">
           <h2 className="section-title mb-4">Latest Projects</h2>
           <p className="subtitle mb-8">
             Some of my recent works and possible projects with you.
@@ -71,7 +71,7 @@ const Work = () => {
         </div>
 
         {/* slider */}
-        <div className="xl:max-w-[800px] 2xl:max-w-[1100px] xl:absolute right-0 top-0">
+        <div className="xl:max-w-[800px] 2xl:max-w-[1100px] xl:absolute right-0 top-0 swipers-point">
           <Swiper
             className="h-[480px] "
             slidesPerView={1}
